@@ -2,51 +2,41 @@
 
 ## ----- Microsevice Architecture Roadmap ----- #CloudArchitecture
 
-1. **Understand Microservices Fundamentals
-   Concepts**:
+1. **Understand Microservices Fundamentals Concepts**: <br/>
    Learn the basics of microservices, including modularity, scalability, and
    independent deployment.
    Recommended Tools: N/A (conceptual learning)
-2. **Learn Core Principles and Design Patterns
-   Focus Areas**:
+2. **Learn Core Principles and Design Patterns Focus Areas**: <br/>
    Service decomposition, domain-driven design (DDD), and bounded
    contexts.
    Recommended Tools: Visual Studio, JetBrains Rider for coding and design
-3. **Build Microservices with .NET Core
-   Technologies**:
+3. **Build Microservices with .NET Core Technologies**: <br/>
    Use Core to develop lightweight and scalable microservices.
    Recommended Tools: Visual Studio, Core, Entity Framework Core for database
    management.
-4. **Implement Inter-Service Communication
-   Communication Types**:
+4. **Implement Inter-Service Communication Communication Types**: <br/>
    Synchronous (HTTP, gRPC) and asynchronous (message
    brokers).
    Recommended Tools: gRPC, RabbitMQ, Apache Kafka, Azure Service Bus.
-5. **Ensure Resilience and Fault Tolerance
-   Resilience Patterns**:
+5. **Ensure Resilience and Fault Tolerance Resilience Patterns**: <br/>
    Circuit Breaker, Retry, Timeout, and Bulkhead.
    Recommended Tools: Polly for resilience, Steeltoe for circuit breakers in .NET Core.
-6. **Secure Your Microservices
-   Security Measures**:
+6. **Secure Your Microservices Security Measures**: <br/>
    Use OAuth2, OpenID Connect, and API Gateway security features.
    Recommended Tools: IdentityServer, Azure AD B2C, Ocelot for API Gateway.
-7. **Utilize Containerization and Orchestration
-   Technologies**:
+7. **Utilize Containerization and Orchestration Technologies**: <br/>
    Use Docker for containerization and Kubernetes for orchestration.
    Recommended Tools: Docker, Kubernetes, Azure Kubernetes Service (AKS), Helm for
    Kubernetes package management.
-8. **Implement API Gateway and Service Discovery
-   Functions**:
+8. **Implement API Gateway and Service Discovery Functions**: <br/>
    Manage traffic, security, and routing using an API Gateway and service
    discovery tools.
    Recommended Tools: Ocelot for API Gateway, Consul, Eureka for service discovery.
-9. **Adopt CI/CD and DevOps Practices
-   Practices**:
+9. **Adopt CI/CD and DevOps Practices**: <br/>
    Automate build, test, and deployment processes with CI/CD pipelines.
    Recommended Tools: Azure DevOps, GitHub Actions, Jenkins, Terraform for
    infrastructure as code.
-10. **Monitor and Optimize Microservices
-    Monitoring and Logging**:
+10. **Monitor and Optimize Microservices Monitoring and Logging**: <br/>
     Centralize logs and monitor services for performance and
     health.
     Recommended Tools: ELK Stack (Elasticsearch, Logstash, Kibana), Prometheus, Grafana,
@@ -54,20 +44,20 @@
 
 ## -------- Microservice Architectures -------
 
-✅ Gateway Pattern
-✅ Service Registry Pattern
-✅ Circuit Breaker Pattern
-✅ SAGA Pattern
-✅ CQRS (Command Query Responsibility Segregation) Pattern
-✅ Bulkhead Pattern
-✅ Sidecar Pattern
-✅ API Composition Pattern
-✅ Event-Driven Architecture Pattern
-✅ Database per Service Pattern
-✅ Retry Pattern
-✅ Configuration Externalization Pattern
-✅ Strangler Fig Pattern
-✅ Leader Election Pattern
+✅ Gateway Pattern <br/>
+✅ Service Registry Pattern <br/>
+✅ Circuit Breaker Pattern <br/>
+✅ SAGA Pattern <br/>
+✅ CQRS (Command Query Responsibility Segregation) Pattern <br/>
+✅ Bulkhead Pattern <br/>
+✅ Sidecar Pattern <br/>
+✅ API Composition Pattern <br/>
+✅ Event-Driven Architecture Pattern <br/>
+✅ Database per Service Pattern <br/>
+✅ Retry Pattern <br/>
+✅ Configuration Externalization Pattern <br/>
+✅ Strangler Fig Pattern <br/>
+✅ Leader Election Pattern <br/>
 
 ## ---- Important .Net Concepts for leveling up Knowledge -----
 
